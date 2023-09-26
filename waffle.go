@@ -1,13 +1,18 @@
 package waffle 
 
-func Bill () string {
-	return "Your bill is $11.99c"
-}
+import (
+  "github.com/iamTruthy/Coffee"
+)
 
 func Order () string {
-	return "Order is on its way"
+	return "Waffles and Honey"
 }
 
-func Ready () string {
-	return "Delivered!"
+func Bill () string {
+	return "Your bill is $50.99c"
+}
+
+
+func Meal () string {
+ return coffee.WithLatte("You Ordered Waffles and Honey with a Cup of Latte")
 }
