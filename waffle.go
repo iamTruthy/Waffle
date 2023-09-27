@@ -14,5 +14,5 @@ func Bill () string {
 
 
 func Meal () string {
- return coffee.WithLatte("You Ordered Waffles and Honey with a Cup of Latte")
+ return coffee.WithLatte("You Ordered " + Order() + " with a cup of Latte")
 }
