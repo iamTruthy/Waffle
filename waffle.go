@@ -5,7 +5,7 @@ import (
 )
 
 func Order () string {
-	return "Waffles and Honey"
+	return "Waffles with Honey"
 }
 
 func Bill () string {
@@ -14,5 +14,5 @@ func Bill () string {
 
 
 func Meal () string {
- return coffee.WithLatte("You Ordered " + Order() + " with a cup of Latte")
+ return coffee.WithLatte("You Ordered " + Order() + " and a cup of Latte")
 }
